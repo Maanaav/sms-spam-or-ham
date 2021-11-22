@@ -16,14 +16,14 @@ Naive Bayes is always favored for text-related tasks [(see)](https://www.quora.c
 6. Tokenization, Stopword removal, Stemming (using PorterStemmer), Vectorization  (using TfidfVectorizer) is done
 7. Train and test split
 8. Algorithms used:<br>
-  - Gaussian Naive Bayes
-  - Multinomial Naive Bayes
-  - Bernoulli Naive Bayes
-  - Logistic Regression
-  - SVC (Support Vector Classifier)
-  - Decision Tree
-  - K Neighbors
-  - Random Forest
+    - Gaussian Naive Bayes
+    - Multinomial Naive Bayes
+    - Bernoulli Naive Bayes
+    - Logistic Regression
+    - SVC (Support Vector Classifier)
+    - Decision Tree
+    - K Neighbors
+    - Random Forest
 9. Voting classifier with K Neighbors, Multinomial Naive Bayes, Random Forest, SVC, and Bernoulli Naive Bayes as estimators
 10. Stacking Classifier with KNeighbors, Multinomial Naive Bayes, Random Forest, SVC and Bernoulli Naive Bayes as estimators and Random Forest as a final estimator
 11. The voting classifier is pickled using joblib applying level 4 compression

@@ -31,6 +31,6 @@ Naive Bayes is always favored for text-related tasks [(see)](https://www.quora.c
 ### Improve existing model:
 1. During vectorization, Multinomial Naive Bayes accuracy increases when max_feature = 3000 along with some minute changes in other algorithms
 2. Scaling our features doesn't make any major improvements so I skip it
-3. Voting classifier with K Neighbors, Multinomial Naive Bayes, Random Forest, SVC, and Bernoulli Naive Bayes as estimators and Multinomial Naive Bayes have a precision of 1.0
+3. Voting classifier (with K Neighbors, Multinomial Naive Bayes, Random Forest, SVC, and Bernoulli Naive Bayes as estimators) and Multinomial Naive Bayes have a precision of 1.0
 4. Voting classifier has an accuracy of 0.9783118405627198 where as Multinomial Naive Bayes has an accuracy of 0.9513481828839391 
 <br> [See this for score and different config used](https://github.com/Maanaav/sms-spam-or-ham/blob/main/score.pdf)

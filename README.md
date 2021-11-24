@@ -1,7 +1,7 @@
 # SMS spam-or-ham
 ## Demo
 link: https://spam-ham-sms.herokuapp.com/docs <br>
-example: https://spam-ham-sms.herokuapp.com/spamorham/YOUR_MESSAGE
+API usage: https://spam-ham-sms.herokuapp.com/spamorham/YOUR_MESSAGE
 ## Overview
 This is a SMS spam classifier API built using fastAPI deployed on Heroku free dyno. The trained model uses [UCIML SMS Spam Collection Dataset](https://www.kaggle.com/uciml/sms-spam-collection-dataset). The model is a Voting classifier with K Neighbors, Multinomial Naive Bayes, Random Forest, SVC, and Bernoulli Naive Bayes as estimators with an **accuracy of 0.9783118405627198** and **precision of 1.0.**
 ## Approach
